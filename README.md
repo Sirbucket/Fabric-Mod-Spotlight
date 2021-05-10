@@ -16,7 +16,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | Sodium | GREATLY improves how minecraft is rendered on an optimization level | CaffieneMC/Jellysquid | Mostly | No | Any mod that uses the fabric rendering API | https://www.curseforge.com/minecraft/mc-mods/sodium |
 | Canvas | A mod centered around improving how the game is rendered visually, not as focused on optimization as sodium but has features. | grondagthebarbarian | No | No | Sodium | https://www.curseforge.com/minecraft/mc-mods/canvas-renderer |
 
-## Lighting and Cache (Lighting/Animation optimizations)
+## Lighting and Animation (Lighting/Animation optimizations)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
 | Phosphor | Computes light rendering faster than default. | CaffieneMC/Jellysquid | Yes | No | Starlight | https://www.curseforge.com/minecraft/mc-mods/phosphor |
@@ -31,6 +31,9 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
 
+## Cache (Caching for things)
+| Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
+|---|---|---|---|---|---|---|
 
 ## Boot (Loading)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
