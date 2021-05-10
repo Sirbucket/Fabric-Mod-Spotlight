@@ -45,7 +45,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 |---|---|---|---|---|---|---|
 | Fat Experience Orbs | Combines smaller experience orbs into one big orb for easier collection and performance savings | NinjaPhenix | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs |
 
-## Visual improvement (Visual improvement mods, note some of these mods are taxing on your system and are marked with a ! for a bit taxing and a !!! for very taxing|
+## Visual improvement (Visual improvement mods, note some of these mods are taxing on your system and are marked with a ! for a bit taxing and a !!! for very taxing.
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
 | !!!Immersive Portals | Removes the loading screen between going through the nether and removes the actual portal, making it a walkthrough experience. | qouteall | Yes | No | Sodium by default (Patched version on mod page.) | https://www.curseforge.com/minecraft/mc-mods/immersive-portals-mod|
