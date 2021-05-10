@@ -59,6 +59,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | Not Enough Animations | Adds first person animations to the third person viewport, pairs well with Better Third Person and First-person Model. | tr9zw | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/not-enough-animations |
 | First-person Model | Adds the third person model to the first person. | tr9zw | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/first-person-model |
 | Blur | Adds a gaussian blur to menus. | Motschen & PyrofabTheModsmith | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/blur-fabric |
+| Dynamic Sound Filters | Adds sound filters depending on position in the world | andre111_ | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/dynamic-sound-filters |
 
 ## Bugfix (Bug fix mods)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
@@ -68,6 +69,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | Save My Stronghold | Fixes ravines and caves intersecting the stronghold and destroying part of it. | YUNGNICKYOUNG | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/save-my-stronghold-fabric |
 | RandomPatches | Includes many bugfixes and optional additional features. | TheRandomLabs | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/randompatches-fabric |
 | DamageTilt | Returns the damage tilt feature from 1.2.5 that got broken in 1.3.1, only works on singleplayer or servers with the mod. | Charles445 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/damage-tilt |
+| AntiGhost | Adds a command and keybind to remove ghost blocks around the player | Giselbaer | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/antighost |
 
 ## Libraries (Libraries required by other mods on this list.)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
@@ -107,3 +109,4 @@ Fabric API should be installed for support for mods and provides some minor fixe
 ## QOL (Support for controllers, better sound changing etc.)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
+| Convenient mobGreifing | Splits the mobGriefing gamerule into 4, one for hostiles, one for passive mobs, one for the wither, and one for the ender dragon. | Neecko5b84 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/convenient-mobgriefing |
