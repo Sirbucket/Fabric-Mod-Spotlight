@@ -72,7 +72,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 ## Libraries (Libraries required by other mods on this list.)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
-
+| TRansliterationLib | Library for tr9zws mods. | tr9zw | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/transliterationlib |
 
 ## Extra (Doesn't fit into a specific category but does have one of the core functions)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
