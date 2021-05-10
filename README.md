@@ -26,7 +26,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
 | Lithium | Improves the way minecraft is computed. | CaffieneMC/Jellysquid | Yes | No | Other computation mods that interact with the same code. | https://www.curseforge.com/minecraft/mc-mods/lithium |
-
+| Hydrogen | Basically Lithium on steroids that sometimes breaks but is mostly stable, but just not to the same standard as lithium, works with lithium. | CaffieneMC/Jellysquid | Kind of | No | None | https://github.com/CaffeineMC/hydrogen-fabric |
 ## Network (Network stack improvement mods)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
@@ -39,6 +39,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
 | Pling | Plays a little noise to let you know the game is ready | haykam | Yes | No | Other mods with the same function I assume | https://www.curseforge.com/minecraft/mc-mods/pling |
+| Lazy DFU | Delays DFU being handled causing reduced CPU usage and nullifying the usefulness of smooth boot | tuxed | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/lazydfu |
 
 ## Particles (Reduces or optimizes particles)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
