@@ -7,7 +7,7 @@ This takes up a similar style to ReperakPro's list as I liked the style but did 
 
 Fabric API should be installed for support for mods and provides some minor fixes itself.
 
-| Mod Name | Description | Credits (Link to credit page or main dev name) | Stable Mod (Non Experimental, Yes, No, Kind of, Mostly) | "Dangerous" (Impacts game behavior heavily or causes the game to simply not load or corrupt a world file.) | Incompatabilities (Mods on this page or off) | Mod Page (Curseforge, Github, Gitlab) |
+| Mod Name | Description | Credits (Link to credit page or main dev name) | Stable Mod (Non Experimental, Yes, No, Kind of, Mostly) | "Dangerous" (Impacts game behavior heavily or causes the game to simply not load or corrupt a world file.) | Incompatabilities (Mods on this page or off) | Mod Page (Curseforge, Modrinth, Github, Gitlab) |
 |---|---|---|---|---|---|---|
 
 ## Graphics (Has to do with game rendering)
@@ -21,7 +21,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | Better Beds | Uses the new item render system for beds rather than the old one. | Motschen | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/better-beds |
 
 
-## Lighting and Animation (Lighting/Animation optimizations)
+## Lighting (Lighting optimizations)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
 | Phosphor | Computes light rendering faster than default. | CaffieneMC/Jellysquid | Yes | No | Starlight | https://www.curseforge.com/minecraft/mc-mods/phosphor |
@@ -32,15 +32,13 @@ Fabric API should be installed for support for mods and provides some minor fixe
 |---|---|---|---|---|---|---|
 | Lithium | Improves the way minecraft is computed. | CaffieneMC/Jellysquid | Yes | No | Other computation mods that interact with the same code. | https://www.curseforge.com/minecraft/mc-mods/lithium |
 | Hydrogen | Basically Lithium on steroids that sometimes breaks but is mostly stable, but just not to the same standard as lithium, works with lithium. | CaffieneMC/Jellysquid | Kind of | No | None | https://github.com/CaffeineMC/hydrogen-fabric |
-## Network (Network stack improvement mods)
-| Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
-|---|---|---|---|---|---|---|
 
 ## Cache (Caching for things)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
-| Fast Furnace | Caches furnace data | tfarecnim | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/fast-furnace-for-fabric
+| Recipe Cache | Basically combines fast furnace and fast bench into one mod. | biom4st3r1 | Yes | No | Fast Furnace Fast Bench| https://www.curseforge.com/minecraft/mc-mods/recipe-cache |
 | EBE | Bakes chest animation reducing lag from chests significantly and provides support to do the same thing with other animations. | FoundationGames | Yes | No | Sodium (Patched version available on mod page | https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities |
+| DashLoader | Caches block data on the first launch of the game and saves it for the next time the game boots. | notequalalpha | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/dashloader |
 
 ## Boot (Loading)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
@@ -49,10 +47,14 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | Lazy DFU | Delays DFU being handled causing reduced CPU usage and nullifying the usefulness of smooth boot | tuxed | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/lazydfu |
 | No Fade | Removes the fade animations allowing you to get into the action faster or just remove an annoying animation. | UltimateBoomer | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/no-fade |
 
+
 ## Particles (Reduces or optimizes particles)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
 | Fat Experience Orbs | Combines smaller experience orbs into one big orb for easier collection and performance savings | NinjaPhenix | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/fat-experience-orbs |
+| No Weather Effects | Removes the weather effects from the game without stopping their functionality, providing a performance boost. | Lortseam_ | Yes | No | Mods that change the particles in weather. | https://www.curseforge.com/minecraft/mc-mods/no-weather-effects |
+| Smoke Suppression | Makes blocks common in farms block camp fires from producing smoke, saving performance. | muteone2 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/smoke-suppression |
+| No Beacon Beams | Removes beacon beams, saving performance, functions the same. | colderlavalamp | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/no-beacon-beams |
 
 ## Visual improvement (Visual improvement mods, note some of these mods are taxing on your system and are marked with a ! for a bit taxing and a !!! for very taxing.
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
@@ -79,6 +81,13 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | Custom Selection Box | Customize the selection box around blocks | shedaniel | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/custom-selection-box-port |
 | Low Fire | Lowers fire for better visibility | UltimateBoomer | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/low-fire |
 | BedrockWaters | Adds bedrock water variety. | 2retr0 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/bedrockwaters |
+| FabricSkyboxes | Adds custom skybox support. | AMereBagatelle | Yes | No | None | https://modrinth.com/mod/fabricskyboxes |
+| Time Changer | Allows you to change the time for yourself and not the server. | Motschen | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/time-changer |
+| Boring Tweaks | Adds a bunch of random tweaks that mostly don't effect gameplay in a meaningful way (clientside). | boredomh1 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/boring-tweaks |
+| ResolutionControl+ | Allows for anti aliasing or reducing graphics for greater performance and allows you to configure screenshot size. | UltimateBoomer | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/resolutioncontrol |
+| !Smoke Extender | Makes smoke go higher into the air. | AfterRebelion | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/smoke-extender |
+| Sneak Tweak | Makes sneak smooth animation duration configurable or disables it. | Lortseam_ | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/sneak-tweak |
+| Drip Sounds | Adds water drip sounds to rain that falls. | PieKing1215 | Yes | No | Maybe particle rain. | https://www.curseforge.com/minecraft/mc-mods/dripsounds-fabric |
 
 ## Bugfix (Bug fix mods)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
@@ -93,11 +102,16 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | Item Model Fix | Removes the weird seams on some items with a performance friendly method. | Pepper_Bell | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/item-model-fix |
 | Colormatic | Removes hard coded colors so resource packs can change things beyond textures. | kwertiTheCats | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/colormatic |
 | ToolTipFix | Fixes long tooltips going off screen. | Kyrptonaught | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/tooltipfix |
+| Giant AI | Adds an AI to the giants (I assume this is a bug so I'm adding this here.) and adds them into the spawn pool on a rare occurence. (Can be disabled.) | Flytre7 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/giant-ai |
+| Why Am I on Fire? | Removes the fire overlay with fire res and in creative mode. | Ellivers | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/why-am-i-on-fire |
+| Dispenser Portal Fix | Fixes the bug that causes face down dispensers lighting a nether portal to crash your game. | haykam | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/dispenser-portal-fix |
 
 ## Libraries (Libraries required by other mods on this list.)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
 | TRansliterationLib | Library for tr9zws mods. | tr9zw | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/transliterationlib |
+| Fabric Language Kotlin | Adds Kotlin to minecraft. | modmuss50 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin |
+| Fabric API | Fabric API | https://www.curseforge.com/minecraft/mc-mods/fabric-api |
 
 ## Extra (Doesn't fit into a specific category but does have one of the core functions)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
@@ -128,6 +142,10 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | Chat Heads | Adds the players front face on their skin to chat, looks appealing. | dzwdz | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/chat-heads |
 | FancyMenu | Lets you add animations to the loading screen and a background. | Keksuccino | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/fancymenu-fabric |
 | Ugly Scoreboard Fix | Removes numbers on the side of the scoreboard. | Lortseam_ | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/ugly-scoreboard-fix |
+| Better World List | Adds a grid layout for world select. | YanisBft | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/better-world-list |
+| Better Mount HUD | Properly displays all elements of the HUD while on a mount. | Lortseam_ | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/better-mount-hud |
+| Splash | Uses hexcode to color loading screen. | LoganDark | Yes | No | Requires Kotlin | https://www.curseforge.com/minecraft/mc-mods/splash |
+| Clear Hitboxes | Cleans up F3 + B | splzhh | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/clear-hitboxes |
 
 ## QOL (Support for controllers, better sound changing etc.)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
@@ -139,8 +157,19 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | AutoReconnect | Reconnects automatically upon being kicked or a server crashes. | bstn02 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/autoreconnect |
 | Continue Button | Adds a continue button for the last world you were on on the main menu | umollu | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/continue-button |
 | Better Local Server | Adds similar functionality to bedrock local servers. | rederpz | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/better-local-server |
+| Disable Custom Worlds Advice | Removes the annoying experimental settings label when using mods. | rdvdev2 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/fabric-disable-custom-worlds-advice |
+| Helpful Hitboxes | Adds similar placement strategies scaffolding uses to other blocks. | abigailfails | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/helpful-hitboxes-fabric |
+| Steelseries Gamesense | Steelseries lights support. | JayJay1989BE | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/steelseries-gamesense-fabric |
 
 ## Networking (Net stack improvements )
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
 | Krypton | Networking improvements | tuxed | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/krypton |
+| Client Side Noteblocks | Makes sounds played by noteblocks clientside, greatly reducing lag generated for the end user of this mod (can even help on singleplayer). | DaCubeKing | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/client-side-noteblocks |
+
+## Up and Coming (1.17 mods or unfinished but incoming mods )
+| Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
+|---|---|---|---|---|---|---|
+| Underground Ambient Light | Improves visibility underground without nulifying the use of torches. | andantet | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/undergroundambientlighting |
+| !!!WorldHeightBooster | 512 world blocks from up and down, even larger. | soapyxm | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/worldheightbooster |
+| All Dimension Height Increase | Increases the build limit within the end and nether as well, does not effect terrain generation. | colderlavalamp | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/all-dimension-height-increase |
