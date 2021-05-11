@@ -104,7 +104,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | ToolTipFix | Fixes long tooltips going off screen. | Kyrptonaught | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/tooltipfix |
 | Giant AI | Adds an AI to the giants (I assume this is a bug so I'm adding this here.) and adds them into the spawn pool on a rare occurence. (Can be disabled.) | Flytre7 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/giant-ai |
 | Why Am I on Fire? | Removes the fire overlay with fire res and in creative mode. | Ellivers | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/why-am-i-on-fire |
-| Dispenser Portal Fix | Fixes the bug that causes face down dispensers lighting a nether portal to crash your game. | haykam | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/dispenser-portal-fix |
+
 
 ## Libraries (Libraries required by other mods on this list.)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
