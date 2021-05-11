@@ -15,6 +15,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 |---|---|---|---|---|---|---|
 | Sodium | GREATLY improves how minecraft is rendered on an optimization level | CaffieneMC/Jellysquid | Mostly | No | Any mod that uses the fabric rendering API | https://www.curseforge.com/minecraft/mc-mods/sodium |
 | Canvas | A mod centered around improving how the game is rendered visually, not as focused on optimization as sodium but has features. | grondagthebarbarian | No | No | Sodium | https://www.curseforge.com/minecraft/mc-mods/canvas-renderer |
+| Entity Culling | Performs entity culling at a rate greater than sodium providing greater performance. | tr9zw | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/entityculling |
 
 ## Lighting and Animation (Lighting/Animation optimizations)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
@@ -34,7 +35,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 ## Cache (Caching for things)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
-
+| Fast Furnace | Caches furnace data | tfarecnim | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/fast-furnace-for-fabric
 ## Boot (Loading)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
@@ -60,6 +61,8 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | First-person Model | Adds the third person model to the first person. | tr9zw | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/first-person-model |
 | Blur | Adds a gaussian blur to menus. | Motschen & PyrofabTheModsmith | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/blur-fabric |
 | Dynamic Sound Filters | Adds sound filters depending on position in the world | andre111_ | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/dynamic-sound-filters |
+| Clear Skies | Changes fog color to match the sky (unrealistic) | grondagthebarbarian | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/clear-skies |
+| !Falling Leaves | Adds falling leaf particles come from leaf blocks. | RandomMcSomethin | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/falling-leaves-fabric |
 
 ## Bugfix (Bug fix mods)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
@@ -81,6 +84,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 |---|---|---|---|---|---|---|
 | Dynamic FPS | When minecraft is not the primary window, it stops rendering or renders at 1FPS | juliand665 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/dynamic-fps |
 | Chunk Pregenerator | Pregenerates chunks in a radius around the player | SuperCoder79 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/chunk-pregenerator-fabric |
+| Not Enough Crashes | Lets you keep playing if the game were to crash. | NatanFudge | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/not-enough-crashes |
 
 ## GUI (UI Mods)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
@@ -100,7 +104,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | Notes | In game notepad on a by world basis. | reeve567 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/notes-fabric |
 | No Angled Brackets | Removes brackets from player names in chat | Flytre7 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/no-angled-brackets |
 | Chat Heads | Adds the players front face on their skin to chat, looks appealing. | dzwdz | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/chat-heads |
-
+| FancyMenu | Lets you add animations to the loading screen and a background. | Keksuccino | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/fancymenu-fabric |
 
 ## Compatability (Provides mod compatability and or development as well as it's own improvements.)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
@@ -110,3 +114,4 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
 | Convenient mobGreifing | Splits the mobGriefing gamerule into 4, one for hostiles, one for passive mobs, one for the wither, and one for the ender dragon. | Neecko5b84 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/convenient-mobgriefing |
+| Audio Output | Adds the option to swap the audio output from a menu. | Maximumgame | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/audio-output | Music Duration Reducer | Makes dynamic music changes that don't immediately interupt music and reduces time betwee songs. | LudoCrypt | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/music-duration-reducer |
