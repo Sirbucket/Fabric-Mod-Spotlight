@@ -7,6 +7,10 @@ This takes up a similar style to ReperakPro's list as I liked the style but did 
 
 Fabric API should be installed for support for mods and provides some minor fixes itself.
 
+Visit https://adoptopenjdk.net/?variant=openjdk16&jvmVariant=hotspot for the best available version of java.
+
+
+
 | Mod Name | Description | Credits (Link to credit page or main dev name) | Stable Mod (Non Experimental, Yes, No, Kind of, Mostly) | "Dangerous" (Impacts game behavior heavily or causes the game to simply not load or corrupt a world file.) | Incompatabilities (Mods on this page or off) | Mod Page (Curseforge, Modrinth, Github, Gitlab) |
 |---|---|---|---|---|---|---|
 
@@ -31,7 +35,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
 | Lithium | Improves the way minecraft is computed. | CaffieneMC/Jellysquid | Yes | No | Other computation mods that interact with the same code. | https://www.curseforge.com/minecraft/mc-mods/lithium |
-| Hydrogen | Basically Lithium on steroids that sometimes breaks but is mostly stable, but just not to the same standard as lithium, works with lithium. | CaffieneMC/Jellysquid | Kind of | No | None | https://github.com/CaffeineMC/hydrogen-fabric |
+| Hydrogen | Unstable memory optimizations | CaffieneMC/Jellysquid | Kind of | No | Doesn't work with some mod on this list (not figured out yet). | https://github.com/CaffeineMC/hydrogen-fabric |
 | hopperOptimizations | Optimizes the minecraft hopper and comes with a patched version of lithium. | 2No2Name | Yes | No | Default lithium. | https://github.com/2No2Name/hopperOptimizations/releases |
 | C2ME | Chunk generation improvement mod. | YatopiaMC | Kind of | No | None | https://github.com/YatopiaMC/C2ME-fabric |
 
@@ -115,6 +119,8 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | TRansliterationLib | Library for tr9zws mods. | tr9zw | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/transliterationlib |
 | Fabric Language Kotlin | Adds Kotlin to minecraft. | modmuss50 | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin |
 | Fabric API | Fabric API | | | | | https://www.curseforge.com/minecraft/mc-mods/fabric-api |
+| Architectury API | For lightoverlay | shedaniel | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/architectury-fabric |
+| Konkrete | Fancy Menu | Keksuccino | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/konkrete-fabric |
 
 ## Extra (Doesn't fit into a specific category but does have one of the core functions)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
