@@ -33,6 +33,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | Lithium | Improves the way minecraft is computed. | CaffieneMC/Jellysquid | Yes | No | Other computation mods that interact with the same code. | https://www.curseforge.com/minecraft/mc-mods/lithium |
 | Hydrogen | Basically Lithium on steroids that sometimes breaks but is mostly stable, but just not to the same standard as lithium, works with lithium. | CaffieneMC/Jellysquid | Kind of | No | None | https://github.com/CaffeineMC/hydrogen-fabric |
 | hopperOptimizations | Optimizes the minecraft hopper and comes with a patched version of lithium. | 2No2Name | Yes | No | Default lithium. | https://github.com/2No2Name/hopperOptimizations/releases |
+| C2ME | Chunk generation improvement mod. | YatopiaMC | Kind of | No | None | https://github.com/YatopiaMC/C2ME-fabric |
 
 ## Cache (Caching for things)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
