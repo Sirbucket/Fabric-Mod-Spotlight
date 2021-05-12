@@ -32,6 +32,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 |---|---|---|---|---|---|---|
 | Lithium | Improves the way minecraft is computed. | CaffieneMC/Jellysquid | Yes | No | Other computation mods that interact with the same code. | https://www.curseforge.com/minecraft/mc-mods/lithium |
 | Hydrogen | Basically Lithium on steroids that sometimes breaks but is mostly stable, but just not to the same standard as lithium, works with lithium. | CaffieneMC/Jellysquid | Kind of | No | None | https://github.com/CaffeineMC/hydrogen-fabric |
+| hopperOptimizations | Optimizes the minecraft hopper and comes with a patched version of lithium. | 2No2Name | Yes | No | Default lithium. | https://github.com/2No2Name/hopperOptimizations/releases |
 
 ## Cache (Caching for things)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
@@ -88,6 +89,7 @@ Fabric API should be installed for support for mods and provides some minor fixe
 | !Smoke Extender | Makes smoke go higher into the air. | AfterRebelion | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/smoke-extender |
 | Sneak Tweak | Makes sneak smooth animation duration configurable or disables it. | Lortseam_ | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/sneak-tweak |
 | Drip Sounds | Adds water drip sounds to rain that falls. | PieKing1215 | Yes | No | Maybe particle rain. | https://www.curseforge.com/minecraft/mc-mods/dripsounds-fabric |
+| Iris | Adds support for optifine shaders. | IrisShaders | Kind of | No | Sodium by default (Patched version available.) | https://github.com/IrisShaders/Iris |
 
 ## Bugfix (Bug fix mods)
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
