@@ -43,7 +43,7 @@ Visit https://adoptopenjdk.net/?variant=openjdk16&jvmVariant=hotspot for the bes
 | Mod Name | Description | Credits | Stable Mod | "Dangerous" | Incompatabilities | Mod Page |
 |---|---|---|---|---|---|---|
 | Recipe Cache | Basically combines fast furnace and fast bench into one mod. | biom4st3r1 | Yes | No | Fast Furnace Fast Bench| https://www.curseforge.com/minecraft/mc-mods/recipe-cache |
-| EBE | Bakes chest animation reducing lag from chests significantly and provides support to do the same thing with other animations. | FoundationGames | Yes | No | Sodium (Patched version available on mod page | https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities |
+| EBE | Bakes chest animation reducing lag from chests significantly and provides support to do the same thing with other animations. | FoundationGames | Yes | No | Requires Indium | https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities |
 | DashLoader | Caches block data on the first launch of the game and saves it for the next time the game boots. | notequalalpha | Yes | No | None | https://www.curseforge.com/minecraft/mc-mods/dashloader |
 
 ## Boot (Loading)
